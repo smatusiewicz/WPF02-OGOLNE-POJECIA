@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="siatka">
+        <Button x:Name ="Button" Margin="87,332,466,35" Content="Kliknij mnie" Click="Button_Click_1" Background="#FFEF1E1E" HorizontalAlignment="Center" Foreground="#FF118FD0"  ></Button>
+        <Grid>
+            <Image Source="Images\kotek.jpg"/>
+            <Label Margin="0,0,667,376" Content="Kliknij"></Label>
+            <Button Margin="635,144,0,252" Click="Button_Click_1">Kolejny przycisk</Button>
+        </Grid>
+
+        <Label x:Name="label_content" Content="Label" Margin="315,89,376,285" Background="#FF37E607" VerticalAlignment="Center" Foreground="#FF118FD0"/>
+        <TextBlock x:Name="test" Margin="603,320,24,23">Test</TextBlock>
+    </Grid>
+</Window>
